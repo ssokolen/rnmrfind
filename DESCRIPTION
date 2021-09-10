@@ -1,0 +1,24 @@
+Package: rnmrfind
+Title: Find NMR Peaks
+Version: 1.0.0
+Authors@R: c(
+    person(given = "Stanislav",
+           family = "Sokolenko",
+           role = c("aut", "cre"),
+           email = "stanislav@sokolenko.net"),
+    person(given = "Ruis",
+           family = "MacDonald",
+           role = c("aut"),
+           email = "rs660553@dal.ca")
+	)
+Description: An adaptive apodization approach to identifying peaks in complex NMR data.
+Depends:
+    R (>= 4.1),
+    mmand (>= 1.6),
+    signal (>= 0.7)
+Suggests:
+    plotly (>= 4.9.3)
+License: Apache 2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
